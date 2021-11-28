@@ -11,8 +11,6 @@ import Home from "../screen/home";
 export default function AppRouter() {
     return (
         <>
-
-
             <Router>
                 <div>
                     <Routes>

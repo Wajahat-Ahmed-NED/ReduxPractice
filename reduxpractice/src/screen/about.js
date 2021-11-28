@@ -8,6 +8,7 @@ export default function About() {
     const dispatch = useDispatch()
     const dataFromRedux = useSelector((a) => a)
     console.log(dataFromRedux.apiData)
+    console.log(dataFromRedux)
 
     useEffect(() => {
         dispatch(getData)

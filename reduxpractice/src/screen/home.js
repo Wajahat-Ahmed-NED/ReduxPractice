@@ -16,6 +16,7 @@ export default function Home() {
             type:"UPDATEINITIALSTATE",
             ...obj,
         })
+        console.log(dataFromRedux)
     }
 
     console.log(dataFromRedux)
