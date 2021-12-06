@@ -21,9 +21,6 @@ export default function Home() {
 
     console.log(dataFromRedux)
 
-
-
-
     return (
         <>
             <h1>{dataFromRedux.userName}</h1>
